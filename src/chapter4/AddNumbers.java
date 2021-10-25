@@ -39,7 +39,7 @@ Loop continues running while the specified condition remains true.
 Post-test
 Condition is tested after completing the loop.
 Execution
-Best to use when the loop may or may not need to exectue, based on the situation.
+Best to use when the loop may or may not need to execute, based on the situation.
 Step 01
 Executes statements inside of loop
 Step 02
