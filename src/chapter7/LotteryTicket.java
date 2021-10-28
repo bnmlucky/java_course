@@ -20,7 +20,7 @@ public class LotteryTicket {
         Random random = new Random();
         for(int i = 0; i < LENGTH; i++){
             int randomNumber;
-            /* Generate random number then search to make sure it doesn't already exist in the array.
+            /* Generate random number, then search to make sure it doesn't already exist in the array.
             If it does, regenerate and search again.
              */
             do {
