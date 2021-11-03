@@ -29,3 +29,11 @@ public class Market {
     }
 
 }
+
+/*
+Principles of object-oriented programming:
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
+ */
