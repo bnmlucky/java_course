@@ -22,3 +22,14 @@ public class GradeBook {
 //        ); - this one does not give the same results as the first one - the if statement needs to be in it.
     }
 }
+/*
+1. Which of the following Data Structures does NOT have an 'iterator()'?
+- Set (-)
+- List (-)
+- Queue (-)
+- Map (+)
+2. Maps are able to hold entries with primitive data types as their key and
+value.
+- True (-)
+- False
+ */
