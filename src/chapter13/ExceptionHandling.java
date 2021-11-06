@@ -10,6 +10,7 @@ public class ExceptionHandling {
     public static void main(String[] args){
         //createNewFile();
         numbersExceptionHandling();
+        //createNewFileRethrow(); - can't call it here without handling the exception
 
     }
     public static void createNewFile(){
@@ -20,6 +21,12 @@ public class ExceptionHandling {
             System.out.println("Directory does not exist.");
             e.printStackTrace();
         }
+    }
+
+    public static void createNewFileRethrow() throws IOException{
+        File file = new File("resources/nonexistent.txt");
+        file.createNewFile();
+
     }
 
     public static void numbersExceptionHandling() {
